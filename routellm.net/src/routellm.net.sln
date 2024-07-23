@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Core", "RouteLLM.Core\RouteLLM.Core.csproj", "{GUID1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Routers", "RouteLLM.Routers\RouteLLM.Routers.csproj", "{GUID2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Server", "RouteLLM.Server\RouteLLM.Server.csproj", "{GUID3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Evaluations", "RouteLLM.Evaluations\RouteLLM.Evaluations.csproj", "{GUID4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Client", "RouteLLM.Client\RouteLLM.Client.csproj", "{GUID5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Client.Demo", "RouteLLM.Client.Demo\RouteLLM.Client.Demo.csproj", "{GUID6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Examples.RouterChat", "RouteLLM.Examples.RouterChat\RouteLLM.Examples.RouterChat.csproj", "{GUID7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{GUID8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Core.Tests", "..\tests\RouteLLM.Core.Tests\RouteLLM.Core.Tests.csproj", "{GUID9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Routers.Tests", "..\tests\RouteLLM.Routers.Tests\RouteLLM.Routers.Tests.csproj", "{GUID10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Server.Tests", "..\tests\RouteLLM.Server.Tests\RouteLLM.Server.Tests.csproj", "{GUID11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteLLM.Evaluations.Tests", "..\tests\RouteLLM.Evaluations.Tests\RouteLLM.Evaluations.Tests.csproj", "{GUID12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{GUID1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{GUID9} = {GUID8}
+		{GUID10} = {GUID8}
+		{GUID11} = {GUID8}
+		{GUID12} = {GUID8}
+	EndGlobalSection
+EndGlobal
